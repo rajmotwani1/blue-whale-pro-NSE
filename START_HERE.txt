@@ -1,0 +1,12 @@
+BLUE WHALE PRO – NSE
+
+1) Upload app.py, requirements.txt and README.md to the new GitHub repository.
+2) In Streamlit Community Cloud, create a new app from that repository. Main file: app.py.
+3) In Streamlit app Settings → Secrets, add:
+
+APP_PASSWORD = "choose-a-private-password"
+UPSTOX_ACCESS_TOKEN = "paste-your-token-here"
+
+4) Save secrets and wait for the app to restart.
+
+Do not send your Upstox token to anyone or put it in GitHub.
